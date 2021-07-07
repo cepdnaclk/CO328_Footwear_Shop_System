@@ -5,7 +5,7 @@ public class Table {
 
     }
     public int test(){
-
+        System.out.println("ok");
         return 2 ;
     }
 }
