@@ -35,3 +35,7 @@ jobs:
       env:
         USERNAME: ${{ github.actor }}
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Build test
+      working-directory: ./software/src/test/java/UI/Table 
+      run: gradle test --tests TableTest
