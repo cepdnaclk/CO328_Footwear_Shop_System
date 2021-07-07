@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CO328_Footwear_Shop_System.iml" filepath="$PROJECT_DIR$/.idea/CO328_Footwear_Shop_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/software.iml" filepath="$PROJECT_DIR$/.idea/modules/software.iml" />
+    </modules>
+  </component>
+</project>
