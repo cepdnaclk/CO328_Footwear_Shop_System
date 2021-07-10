@@ -8,6 +8,6 @@ class TableTest {
 
     @Test
     void print() {
-        assertEquals(0,0);
+        assertEquals(0,1);
     }
 }
