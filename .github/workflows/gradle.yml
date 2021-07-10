@@ -5,9 +5,9 @@ name: CO328_Footwear_Shop_System
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ,  UI_Table ]
   pull_request:
-    branches: [ main ]
+    branches: [ main ,  UI_Table ]
 
 jobs:
   build:
