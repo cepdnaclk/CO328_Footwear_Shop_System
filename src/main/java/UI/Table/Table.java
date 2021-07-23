@@ -1,47 +1,33 @@
 package UI.Table;
-import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
-import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
-public class Table extends Application{
-    public int print(){
-        return  0 ;
-    }
+public class Table  {
 
-    public int print1(){
-        return  0 ;
-    }
+    public static Stage primaryStage;
+    private static Controller controller = new Controller();
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("Table.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.initStyle(StageStyle.TRANSPARENT);
-        final Scene scene = new Scene(root);
-        scene.setFill(null);
-
-        primaryStage.setScene(scene);
-
-        primaryStage.show();
-    }
-
-    public void display(){
-
-
-        launch();
-    }
 
     public static void main(String[] args) {
-        Table table = new Table();
-        table.display();
+
+
+        Thread thread = new Thread(controller);
+        thread.start();
+        try {
+            TimeUnit.SECONDS.sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("tt");
+        
 
     }
+
+
 
 
 }
