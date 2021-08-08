@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="596.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <stylesheets>
+      <URL value="@../theme.css" />
+   </stylesheets>
+   <children>
+      <Pane prefHeight="596.0" prefWidth="532.0" styleClass="SecColour">
+         <children>
+            <ImageView fitHeight="332.0" fitWidth="383.0" layoutX="65.0" layoutY="98.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../image/footwear.png" />
+               </image></ImageView>
+         </children>
+      </Pane>
+      <Pane id="bluePanel" layoutX="517.0" prefHeight="596.0" prefWidth="343.0" styleClass="MainPanel" stylesheets="@../theme.css">
+         <children>
+            <Label layoutX="60.0" layoutY="55.0" stylesheets="@../theme.css" text="Login">
+               <styleClass>
+                  <String fx:value="heading" />
+                  <String fx:value="SecColourText" />
+               </styleClass></Label>
+            <Label id="text" layoutX="60.0" layoutY="141.0" text="Hello, let's go started">
+               <styleClass>
+                  <String fx:value="SecColourText" />
+                  <String fx:value="mediumtext" />
+               </styleClass></Label>
+            <TextField fx:id="UserId" layoutX="60.0" layoutY="213.0" prefHeight="26.0" prefWidth="201.0" promptText="User ID">
+               <styleClass>
+                  <String fx:value="normalText" />
+                  <String fx:value="corner" />
+                  <String fx:value="transparent" />
+                  <String fx:value="SecColourText" />
+                  <String fx:value="normalTextHigh" />
+               </styleClass></TextField>
+            <PasswordField fx:id="Password" layoutX="60.0" layoutY="298.0" prefHeight="26.0" prefWidth="201.0" promptText="Password">
+               <styleClass>
+                  <String fx:value="normalText" />
+                  <String fx:value="corner" />
+                  <String fx:value="transparent" />
+                  <String fx:value="SecColourText" />
+                  <String fx:value="normalTextHigh" />
+               </styleClass></PasswordField>
+            <Label fx:id="login" layoutX="98.0" layoutY="441.0" onMouseClicked="#Login" prefHeight="36.0" prefWidth="118.0" text="Login">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <styleClass>
+                  <String fx:value="mediumtext" />
+                  <String fx:value="MainColourText" />
+                  <String fx:value="cornerHigh" />
+                  <String fx:value="textAlignmentCenter" />
+               </styleClass></Label>
+            <Line id="line" endX="100.0" layoutX="157.0" layoutY="340.0" startX="-100.0" styleClass="whiteLine" />
+            <Line id="line" endX="104.0" layoutX="158.0" layoutY="255.0" startX="-100.0" styleClass="whiteLine" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

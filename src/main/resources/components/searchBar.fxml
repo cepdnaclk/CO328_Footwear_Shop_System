@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="34.0" prefWidth="348.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="components.SearchBar">
+   <stylesheets>
+      <URL value="@../theme.css" />
+   </stylesheets>
+
+
+   <children>
+      <TextField fx:id="Search" layoutX="66.0" layoutY="15.0" prefHeight="43.0" prefWidth="348.0" promptText="Search" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <styleClass>
+            <String fx:value="normalTextHigh" />
+            <String fx:value="mediumtext" />
+            <String fx:value="MainColourText" />
+            <String fx:value="corner" />
+         </styleClass>
+      </TextField>
+   </children>
+</AnchorPane>
