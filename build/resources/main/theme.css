@@ -1,0 +1,77 @@
+.root{
+
+}
+
+
+.MainPanel{
+    -fx-background-color: #4070EA;
+}
+
+.SecColour{
+    -fx-background-color: "white"  ;
+}
+
+.threeColourText{
+    -fx-background-color : #848282 ;
+}
+
+.threeColourPanel{
+    -fx-background-color: #848282 ;
+}
+
+.heading{
+    -fx-font-size: 36;
+}
+
+.MainColourText{
+
+    -fx-background-color : "white"  ;
+    -fx-text-fill: #4070EA ;
+
+}
+
+.SecColourText{
+    -fx-text-fill: "white"  ;
+}
+
+
+.normalText{
+    -fx-font-size: 15;
+}
+
+.whiteLine{
+    -fx-stroke: white;
+}
+
+.transparent{
+    -fx-background-color: transparent;
+}
+
+.mediumtext{
+    -fx-font-size: 20 ;
+}
+
+.textAlignmentCenter{
+    -fx-alignment: center;
+}
+
+.corner{
+    -fx-background-radius:10;
+}
+
+.cornerHigh{
+    -fx-background-radius:50;
+}
+
+.normalTextHigh{
+    -fx-min-height : 30;
+    -fx-max-height : 30;
+}
+
+.appMaxHigh{
+    -fx-max-height : 1000;
+}
+
+.appBoxWidth{
+    -fx-max-width : 1600;
+}
