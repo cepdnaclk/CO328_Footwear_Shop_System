@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/-HTML-e34f26?logo=html5&logoColor=fff)
-
+![](https://img.shields.io/github/languages/top/cepdnaclk/e16-co328-Footwear-Shop-System?logo=python&logoColor=%235AB552)
+![GitHub repo size](https://img.shields.io/github/repo-size/cepdnaclk/e16-co328-Footwear-Shop-System)
 
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PRAVEENDHANANJAYA&show_icons=true&theme=radical)
 
