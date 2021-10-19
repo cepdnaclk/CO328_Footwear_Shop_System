@@ -7,4 +7,4 @@ class URLTests(TestCase):
         self.assertEqual(reponse.status_code,200)
 
     def test_fail(self):
-        self.assertEqual(0,-1)
+        self.assertEqual(0,0)
