@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/-HTML-e34f26?logo=html5&logoColor=fff)
+
+
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PRAVEENDHANANJAYA&show_icons=true&theme=radical)
 
 
 # Installation
@@ -50,3 +54,4 @@ Password : 12345678
 ```
 
 
+![Github stats](https://github-readme-stats.vercel.app/api?username=praveendhananjaya&count_private=true&show_icons=true&theme=radical)
