@@ -28,6 +28,7 @@ RUN pip install django-crispy-forms
 RUN pip install django_countries
 RUN pip install stripe
 RUN python -m pip install Pillow
+RUN pip install coverage
 RUN pip install flake8
 
 # copy files
