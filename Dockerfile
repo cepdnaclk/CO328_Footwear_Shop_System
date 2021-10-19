@@ -5,9 +5,6 @@ COPY requirements.txt .
 
 # chaneg the working director
 
-
-
-
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
@@ -31,14 +28,19 @@ RUN pip install django-crispy-forms
 RUN pip install django_countries
 RUN pip install stripe
 RUN python -m pip install Pillow
+RUN pip install flake8
 
 # copy files
-COPY . /app 
+#COPY . /app
 
 # chaneg the working director
 WORKDIR /app
 
 EXPOSE 8000
+
+CMD [ "python","manage.py", "core"]
+
+CMD [ "python","manage.py", "test" ]
 
 CMD [ "python","manage.py", "runserver","0.0.0.0:8000" ]
 
