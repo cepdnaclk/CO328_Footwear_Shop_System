@@ -4,7 +4,7 @@
 
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PRAVEENDHANANJAYA&show_icons=true&theme=radical)
 
-![Alt Text](https://github.com/cepdnaclk/e16-co328-Footwear-Shop-System/video/shoe%20shop%20video.gif)
+![Alt Text](https://github.com/cepdnaclk/e16-co328-Footwear-Shop-System/blob/main/video/shoe%20shop%20video.gif)
 
 # Installation
 
