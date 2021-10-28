@@ -1,5 +1,6 @@
 from django.test import TestCase
-from django.contrib.auth.models import AnonymousUser, User
+#from django.contrib.auth.models import AnonymousUser, User
+from core.code import django_User, Tem_Product
 
 
 # Create your tests here.
@@ -48,8 +49,19 @@ class URLTests(TestCase):
         self.assertEqual(response.status_code, 301)
 
 
-class DataBaseTests(TestCase):
-    def test_building(self):
-        user = AnonymousUser()
+class AnonymousTests(TestCase):
 
-        pass
+    def setUp(self) -> None:
+        self.product = Tem_Product(name="boot", price=500)
+
+    def test_anonymous(self):
+        user = django_User()
+        self.assertEqual(user.response(), 200)
+
+    def test_AddCart(self):
+        user = django_User()
+        response = user.addCart(self.product)
+        # page redirection login
+        self.assertEqual(response, 301)
+
+
