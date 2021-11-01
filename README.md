@@ -75,5 +75,3 @@ Username : admin
 Password : 12345678
 ```
 
-
-![Github stats](https://github-readme-stats.vercel.app/api?username=praveendhananjaya&count_private=true&show_icons=true&theme=radical)
